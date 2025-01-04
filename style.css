@@ -1,0 +1,158 @@
+
+/* 设置所有段落文本的字体和颜色 */
+p {
+    text-indent: 2em; /* 首行缩进2字符 */
+    font-family: Arial, sans-serif; /* 使用Arial字体，如果没有则使用无衬线字体 */
+    color: #000000; /* 段落文本颜色为深灰色 */
+}
+
+/* 设置标题的字体大小和颜色 */
+h1 {
+    font-size: 2em; /* 标题字体大小为2倍正常大小 */
+    color: #0055A4; /* 标题颜色 */
+}
+body {
+    background-color: #ffffff ; /* 颜色背景 */
+    margin: 0; /* 移除默认的外边距 */
+}
+
+
+#chunjietodo{
+    font-size: 1.8em;
+    color: #f90404;
+    text-align: center; /* 水平居中文本 */
+    font-family: Arial, sans-serif; /* 使用Arial字体，如果没有则使用无衬线字体 */
+}
+.fore2 {
+    font-family: 'Arial', sans-serif; /* 设置字体为Arial或系统默认的无衬线字体 */
+    font-size: 16px; /* 设置字体大小为16像素 */
+    font-weight: bold; /* 设置字体为粗体 */
+    color: #333333; /* 设置字体颜色为深灰色 */
+}
+.center-absolute {
+    text-align: center; /* 水平居中文本 */
+    /*margin: auto; /* 左右外边距自动，实现水平居中 */
+    font-size: 1.5em;
+    color: aquamarine;
+}
+.huanying{
+    font-size: 2.9em; /* 标题字体大小为2倍正常大小 */
+    color: #f5d64b; /* 标题颜色 */
+    text-align: center; /* 水平居中文本 */
+}
+
+.heci{
+    text-indent: 2em; /* 首行缩进2字符 */
+    font-size: 1em;
+}
+.zhongguojie{
+    height: 200px;
+    width: 160px;
+    margin-left: 8px;
+}
+.container1 {
+    display: flex; /* 使用Flexbox布局 */
+    align-items: center; /* 垂直居中对齐 */
+}
+.zhongguojie {
+    margin-right: 130px; /* 在图片和标题之间添加一些间距 */
+}
+.aixin{
+    height: 200px;
+    width: 160px;
+    margin-left: 130px;
+}
+.liebiao1{
+    align-items: center; /* 垂直居中对齐 */
+    margin-left: 120px;
+    font-size: 1.2em;
+}
+.hesuivideo{
+    font-size: 1.8em;
+    color: #f90404;
+    text-align: center; /* 水平居中文本 */
+    font-family: Arial, sans-serif; /* 使用Arial字体，如果没有则使用无衬线字体 */
+}
+.xinnianphoto{
+    font-size: 1.8em;
+    color: #f90404;
+    text-align: center; /* 水平居中文本 */
+    font-family: Arial, sans-serif; /* 使用Arial字体，如果没有则使用无衬线字体 */
+}
+.babaofan{
+    height: 300px;
+    width: 400px;
+}
+.bainian{
+    height: 300px;
+    width: 400px;
+}
+.caideng{
+    height: 400px;
+    width: 400px;
+}
+.chuanxinyi{
+    height: 400px;
+    width: 510px;
+}
+.chunlianchuanghua{
+    height: 400px;
+    width: 400px;
+}
+.jiaozi{
+    height: 400px;
+    width: 400px;
+}
+.niangao{
+    height: 300px;
+    width: 400px;
+}
+.nianyefan{
+    height: 300px;
+    width: 400px;
+}
+.tangyuan{
+    height: 300px;
+    width: 400px;
+}
+.xinniancuxiaohuodong{
+    height: 300px;
+    width: 400px;
+}
+.xinnianjihua{
+    height: 300px;
+    width: 400px;
+}
+.xinniantupian1{
+    height: 300px;
+    width: 600px;
+}
+.xinnianwanhui{
+    height: 600px;
+    width: 900px;
+}
+.yanhua1{
+    height: 500px;
+    width: 900px;
+}
+.yanhua2{
+    height: 500px;
+    width: 900px;
+}
+.yanhua3{
+    height: 500px;
+    width: 900px;
+}
+.xinniantupianzhuanlan{
+    margin-left: 26px;    
+}
+.jieshuheci{
+    text-indent: 2em; /* 首行缩进2字符 */
+    font-size: 1em;
+}
+body {
+    background-image: url('background.jpg'); /* 替换为你的图片路径 */
+    background-size: cover; /* 确保图片覆盖整个背景，不留空白 */
+    background-position: center center; /* 将图片居中显示 */
+    background-attachment: fixed; /* 可选，如果想让背景图片固定不动，即使页面滚动也不会移动 */
+}
